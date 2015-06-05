@@ -9,6 +9,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Martin Fernandez"]
   spec.email         = ["me@bilby91.com"]
   spec.summary       = %q{ Sugar for ruby hash class. }
+  spec.description   = %q{ Sugar for ruby hash class. }
   spec.homepage      = "https://github.com/bilby91/hasugar"
   spec.license       = "MIT"
 
@@ -19,5 +20,5 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "rspec", "~> 3.2"
   spec.add_development_dependency "bundler", "~> 1.6"
-  spec.add_development_dependency "rake"
+  spec.add_development_dependency "rake", "~> 10"
 end
